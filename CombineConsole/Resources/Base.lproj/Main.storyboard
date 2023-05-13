@@ -16,6 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z7y-c8-XZW">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" text="print(&quot;I like swift&quot;)" translatesAutoresizingMaskIntoConstraints="NO" id="7mk-za-LxH">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
@@ -29,11 +33,16 @@
                         <constraints>
                             <constraint firstItem="7mk-za-LxH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0Do-fR-UDs"/>
                             <constraint firstItem="7mk-za-LxH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Lao-xS-z8i"/>
+                            <constraint firstAttribute="bottom" secondItem="z7y-c8-XZW" secondAttribute="bottom" id="MgF-S2-gkX"/>
+                            <constraint firstItem="z7y-c8-XZW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Q7O-Kl-zg7"/>
+                            <constraint firstItem="z7y-c8-XZW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YNF-0J-xyZ"/>
+                            <constraint firstItem="z7y-c8-XZW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="asb-Jn-2du"/>
                             <constraint firstItem="7mk-za-LxH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="b7B-nN-fHx"/>
                             <constraint firstItem="7mk-za-LxH" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="pVd-2n-wbo"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="backgroundView" destination="z7y-c8-XZW" id="4x9-43-R9c"/>
                         <outlet property="textView" destination="7mk-za-LxH" id="Omi-SC-BuI"/>
                     </connections>
                 </viewController>
