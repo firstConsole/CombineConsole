@@ -6,14 +6,20 @@
 //
 
 import UIKit
+import Combine
 
-class ViewController: UIViewController {
-
+final class ViewController: UIViewController {
+    
+    // MARK: IBOutlets
+    
+    @IBOutlet weak var textView: UITextView!
+    
+    // MARK: - Class methods
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        textView.isEditable = false
     }
-
-
 }
 
