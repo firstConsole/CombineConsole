@@ -14,6 +14,7 @@
 		BB0586642A0F857E00E9D1B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0586632A0F857E00E9D1B7 /* Assets.xcassets */; };
 		BB0586672A0F857E00E9D1B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0586652A0F857E00E9D1B7 /* LaunchScreen.storyboard */; };
 		BB0586712A0FAE1900E9D1B7 /* CustomSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0586702A0FAE1900E9D1B7 /* CustomSubscriber.swift */; };
+		BB8F3BAF2A18DE3600DD3A5F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8F3BAE2A18DE3600DD3A5F /* ThirdViewController.swift */; };
 		BBC9AD752A10FF45008E4AE9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC9AD742A10FF45008E4AE9 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		BB0586662A0F857E00E9D1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB0586682A0F857E00E9D1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB0586702A0FAE1900E9D1B7 /* CustomSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSubscriber.swift; sourceTree = "<group>"; };
+		BB8F3BAE2A18DE3600DD3A5F /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		BBC9AD742A10FF45008E4AE9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 			children = (
 				BBC9AD722A10FED8008E4AE9 /* Task 1 */,
 				BBC9AD732A10FEEA008E4AE9 /* Task 2 */,
+				BB8F3BAD2A18DE2300DD3A5F /* Task 3 */,
 				BB05866F2A0F85A400E9D1B7 /* Application */,
 				BB05866E2A0F859400E9D1B7 /* Resources */,
 				BB0586682A0F857E00E9D1B7 /* Info.plist */,
@@ -86,6 +89,14 @@
 				BB05865C2A0F857D00E9D1B7 /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		BB8F3BAD2A18DE2300DD3A5F /* Task 3 */ = {
+			isa = PBXGroup;
+			children = (
+				BB8F3BAE2A18DE3600DD3A5F /* ThirdViewController.swift */,
+			);
+			path = "Task 3";
 			sourceTree = "<group>";
 		};
 		BBC9AD722A10FED8008E4AE9 /* Task 1 */ = {
@@ -180,6 +191,7 @@
 				BB05865F2A0F857D00E9D1B7 /* ViewController.swift in Sources */,
 				BB05865B2A0F857D00E9D1B7 /* AppDelegate.swift in Sources */,
 				BBC9AD752A10FF45008E4AE9 /* SecondViewController.swift in Sources */,
+				BB8F3BAF2A18DE3600DD3A5F /* ThirdViewController.swift in Sources */,
 				BB05865D2A0F857D00E9D1B7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
